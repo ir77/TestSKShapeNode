@@ -11,35 +11,31 @@ import SpriteKit
 class GameScene: SKScene {
     override func didMoveToView(view: SKView) {
         /* Setup your scene here */
-        let myLabel = SKLabelNode(fontNamed:"Chalkduster")
-        myLabel.text = "Hello, World!";
-        myLabel.fontSize = 65;
-        myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame));
+        makeSKShapeNode()
+    }
+    
+    func makeSKShapeNode(){
+        let tmpRect = CGRectMake(0.0, 0.0, 400, 100)
+        let path = CGPathCreateWithRoundedRect(tmpRect, 9, 9 , nil)
         
-        self.addChild(myLabel)
+        let blackRect = SKShapeNode()
+        blackRect.path = path
+        
+        blackRect.fillColor = SKColor.blackColor()
+        blackRect.position = CGPoint(x: self.frame.width/2-blackRect.frame.width/2, y: self.frame.height/2)
+        self.addChild(blackRect)
     }
     
     override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
-        /* Called when a touch begins */
-        
-        for touch: AnyObject in touches {
-            let location = touch.locationInNode(self)
-            
-            let sprite = SKSpriteNode(imageNamed:"Spaceship")
-            
-            sprite.xScale = 0.5
-            sprite.yScale = 0.5
-            sprite.position = location
-            
-            let action = SKAction.rotateByAngle(CGFloat(M_PI), duration:1)
-            
-            sprite.runAction(SKAction.repeatActionForever(action))
-            
-            self.addChild(sprite)
-        }
+        let newScene = NextScene(size: self.size)
+        //cleanUpChildrenAndRemove(self)
+        self.view?.presentScene(newScene)
     }
-   
-    override func update(currentTime: CFTimeInterval) {
-        /* Called before each frame is rendered */
+    
+    func cleanUpChildrenAndRemove(node:SKNode) {
+        for child in node.children {
+            cleanUpChildrenAndRemove(child as SKNode)
+        }
+        node.removeFromParent()
     }
 }
