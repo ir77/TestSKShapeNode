@@ -11,23 +11,22 @@ import SpriteKit
 class NextScene: SKScene {
     override func didMoveToView(view: SKView) {
         /* Setup your scene here */
-        makeLabel("hogehoge", fontSize: 35, yPosition: 100)
-        makeLabel("hogehoge", fontSize: 35, yPosition: 250)
-        makeLabel("hogehoge", fontSize: 35, yPosition: 400)
-        makeLabel("hogehoge", fontSize: 35, yPosition: 550)
-        makeLabel("hogehoge", fontSize: 35, yPosition: 700)
-        makeLabel("hogehoge", fontSize: 35, yPosition: 100)
-        makeLabel("hogehoge", fontSize: 35, yPosition: 250)
-        makeLabel("hogehoge", fontSize: 35, yPosition: 400)
-        makeLabel("hogehoge", fontSize: 35, yPosition: 550)
-        makeLabel("hogehoge", fontSize: 35, yPosition: 700)
-
+        makeLabel("hogehoge", yPosition: 100)
+        makeLabel("hogehoge", yPosition: 250)
+        makeLabel("hogehoge", yPosition: 400)
+        makeLabel("hogehoge", yPosition: 550)
+        makeLabel("hogehoge", yPosition: 700)
+        makeLabel("hogehoge", yPosition: 100)
+        makeLabel("hogehoge", yPosition: 250)
+        makeLabel("hogehoge", yPosition: 400)
+        makeLabel("hogehoge", yPosition: 550)
+        makeLabel("hogehoge", yPosition: 700)
     }
     
-    func makeLabel(labelText:String,fontSize: CGFloat, yPosition:CGFloat){
+    func makeLabel(labelText:String, yPosition:CGFloat){
         let dqLabel = SKLabelNode(fontNamed: "PixelMplus12-Regular")
         dqLabel.text = labelText
-        dqLabel.fontSize = fontSize
+        dqLabel.fontSize = 35
         
         let tmpRect = CGRectMake(0.0, 0.0, 400, 100)
         let blackRect = SKShapeNode()
