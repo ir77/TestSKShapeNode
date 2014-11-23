@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B19DD43D1A21978300553688 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19DD43C1A21978300553688 /* AppDelegate.swift */; };
+		B19DD43F1A21978300553688 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B19DD43E1A21978300553688 /* GameScene.sks */; };
+		B19DD4411A21978300553688 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19DD4401A21978300553688 /* GameScene.swift */; };
+		B19DD4431A21978300553688 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19DD4421A21978300553688 /* GameViewController.swift */; };
+		B19DD4461A21978300553688 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19DD4441A21978300553688 /* Main.storyboard */; };
+		B19DD4481A21978300553688 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B19DD4471A21978300553688 /* Images.xcassets */; };
+		B19DD44B1A21978300553688 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B19DD4491A21978300553688 /* LaunchScreen.xib */; };
+		B19DD4571A21978300553688 /* TestSKShapeNodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19DD4561A21978300553688 /* TestSKShapeNodeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B19DD4511A21978300553688 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B19DD42F1A21978300553688 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B19DD4361A21978300553688;
+			remoteInfo = TestSKShapeNode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B19DD4371A21978300553688 /* TestSKShapeNode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSKShapeNode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19DD43B1A21978300553688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B19DD43C1A21978300553688 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B19DD43E1A21978300553688 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		B19DD4401A21978300553688 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		B19DD4421A21978300553688 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		B19DD4451A21978300553688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B19DD4471A21978300553688 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B19DD44A1A21978300553688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B19DD4501A21978300553688 /* TestSKShapeNodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSKShapeNodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19DD4551A21978300553688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B19DD4561A21978300553688 /* TestSKShapeNodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSKShapeNodeTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B19DD4341A21978300553688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19DD44D1A21978300553688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B19DD42E1A21978300553688 = {
+			isa = PBXGroup;
+			children = (
+				B19DD4391A21978300553688 /* TestSKShapeNode */,
+				B19DD4531A21978300553688 /* TestSKShapeNodeTests */,
+				B19DD4381A21978300553688 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B19DD4381A21978300553688 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B19DD4371A21978300553688 /* TestSKShapeNode.app */,
+				B19DD4501A21978300553688 /* TestSKShapeNodeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B19DD4391A21978300553688 /* TestSKShapeNode */ = {
+			isa = PBXGroup;
+			children = (
+				B19DD43C1A21978300553688 /* AppDelegate.swift */,
+				B19DD43E1A21978300553688 /* GameScene.sks */,
+				B19DD4401A21978300553688 /* GameScene.swift */,
+				B19DD4421A21978300553688 /* GameViewController.swift */,
+				B19DD4441A21978300553688 /* Main.storyboard */,
+				B19DD4471A21978300553688 /* Images.xcassets */,
+				B19DD4491A21978300553688 /* LaunchScreen.xib */,
+				B19DD43A1A21978300553688 /* Supporting Files */,
+			);
+			path = TestSKShapeNode;
+			sourceTree = "<group>";
+		};
+		B19DD43A1A21978300553688 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B19DD43B1A21978300553688 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B19DD4531A21978300553688 /* TestSKShapeNodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B19DD4561A21978300553688 /* TestSKShapeNodeTests.swift */,
+				B19DD4541A21978300553688 /* Supporting Files */,
+			);
+			path = TestSKShapeNodeTests;
+			sourceTree = "<group>";
+		};
+		B19DD4541A21978300553688 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B19DD4551A21978300553688 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B19DD4361A21978300553688 /* TestSKShapeNode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B19DD45A1A21978300553688 /* Build configuration list for PBXNativeTarget "TestSKShapeNode" */;
+			buildPhases = (
+				B19DD4331A21978300553688 /* Sources */,
+				B19DD4341A21978300553688 /* Frameworks */,
+				B19DD4351A21978300553688 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestSKShapeNode;
+			productName = TestSKShapeNode;
+			productReference = B19DD4371A21978300553688 /* TestSKShapeNode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B19DD44F1A21978300553688 /* TestSKShapeNodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B19DD45D1A21978300553688 /* Build configuration list for PBXNativeTarget "TestSKShapeNodeTests" */;
+			buildPhases = (
+				B19DD44C1A21978300553688 /* Sources */,
+				B19DD44D1A21978300553688 /* Frameworks */,
+				B19DD44E1A21978300553688 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B19DD4521A21978300553688 /* PBXTargetDependency */,
+			);
+			name = TestSKShapeNodeTests;
+			productName = TestSKShapeNodeTests;
+			productReference = B19DD4501A21978300553688 /* TestSKShapeNodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B19DD42F1A21978300553688 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ucuc;
+				TargetAttributes = {
+					B19DD4361A21978300553688 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					B19DD44F1A21978300553688 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = B19DD4361A21978300553688;
+					};
+				};
+			};
+			buildConfigurationList = B19DD4321A21978300553688 /* Build configuration list for PBXProject "TestSKShapeNode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B19DD42E1A21978300553688;
+			productRefGroup = B19DD4381A21978300553688 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B19DD4361A21978300553688 /* TestSKShapeNode */,
+				B19DD44F1A21978300553688 /* TestSKShapeNodeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B19DD4351A21978300553688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19DD44B1A21978300553688 /* LaunchScreen.xib in Resources */,
+				B19DD4481A21978300553688 /* Images.xcassets in Resources */,
+				B19DD43F1A21978300553688 /* GameScene.sks in Resources */,
+				B19DD4461A21978300553688 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19DD44E1A21978300553688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B19DD4331A21978300553688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19DD4411A21978300553688 /* GameScene.swift in Sources */,
+				B19DD4431A21978300553688 /* GameViewController.swift in Sources */,
+				B19DD43D1A21978300553688 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19DD44C1A21978300553688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19DD4571A21978300553688 /* TestSKShapeNodeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B19DD4521A21978300553688 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B19DD4361A21978300553688 /* TestSKShapeNode */;
+			targetProxy = B19DD4511A21978300553688 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B19DD4441A21978300553688 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B19DD4451A21978300553688 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B19DD4491A21978300553688 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B19DD44A1A21978300553688 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B19DD4581A21978300553688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B19DD4591A21978300553688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B19DD45B1A21978300553688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestSKShapeNode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B19DD45C1A21978300553688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestSKShapeNode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B19DD45E1A21978300553688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TestSKShapeNodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestSKShapeNode.app/TestSKShapeNode";
+			};
+			name = Debug;
+		};
+		B19DD45F1A21978300553688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TestSKShapeNodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestSKShapeNode.app/TestSKShapeNode";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B19DD4321A21978300553688 /* Build configuration list for PBXProject "TestSKShapeNode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19DD4581A21978300553688 /* Debug */,
+				B19DD4591A21978300553688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B19DD45A1A21978300553688 /* Build configuration list for PBXNativeTarget "TestSKShapeNode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19DD45B1A21978300553688 /* Debug */,
+				B19DD45C1A21978300553688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B19DD45D1A21978300553688 /* Build configuration list for PBXNativeTarget "TestSKShapeNodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19DD45E1A21978300553688 /* Debug */,
+				B19DD45F1A21978300553688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B19DD42F1A21978300553688 /* Project object */;
+}
