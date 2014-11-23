@@ -23,23 +23,23 @@ class NextScene: SKScene {
         makeLabel("hogehoge", yPosition: 700)
     }
     
-func makeLabel(labelText:String, yPosition:CGFloat){
-    let myLabel = SKLabelNode(fontNamed: "PixelMplus12-Regular")
-    myLabel.text = labelText
-    myLabel.fontSize = 35
-    
-    let tmpRect = CGRectMake(0.0, 0.0, 400, 100)
-    let blackRect = SKShapeNode()
-    let path = CGPathCreateWithRoundedRect(tmpRect, 9, 9 , nil)
+    func makeLabel(labelText:String, yPosition:CGFloat){
+        let myLabel = SKLabelNode(fontNamed: "PixelMplus12-Regular")
+        myLabel.text = labelText
+        myLabel.fontSize = 35
+        
+        let tmpRect = CGRectMake(0.0, 0.0, 400, 100)
+        let blackRect = SKShapeNode()
+        let path = CGPathCreateWithRoundedRect(tmpRect, 9, 9 , nil)
 
-    blackRect.path = path
-    blackRect.fillColor = SKColor.blackColor()
-    blackRect.strokeColor = SKColor.whiteColor()
-    myLabel.position = CGPointMake(blackRect.frame.width/2, myLabel.frame.size.height*1/3)
-    blackRect.position = CGPoint(x: self.frame.width/2-blackRect.frame.width/2, y: yPosition)
-    blackRect.addChild(myLabel)
-    self.addChild(blackRect)
-}
+        blackRect.path = path
+        blackRect.fillColor = SKColor.blackColor()
+        blackRect.strokeColor = SKColor.whiteColor()
+        myLabel.position = CGPointMake(blackRect.frame.width/2, myLabel.frame.size.height*1/3)
+        blackRect.position = CGPoint(x: self.frame.width/2-blackRect.frame.width/2, y: yPosition)
+        blackRect.addChild(myLabel)
+        self.addChild(blackRect)
+    }
     
     override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
         let newScene = GameScene(size: self.size)
